@@ -1,12 +1,71 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity$PlaceholderFragment">
+    tools:context=".MainActivity$ForecastFragment">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <!--<TextView
+    android:text="Hello World!"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tgl" />-->
 
-</RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview_forecast"
+        />
+
+
+    <!--<TextView
+        android:text="Today, November 16 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tgl" />
+
+    <ImageView
+        android:layout_height="100dp"
+        android:src="@mipmap/cloudy"
+        android:layout_marginTop="12dp"
+        android:id="@+id/gbrCuaca"
+        android:layout_below="@+id/tgl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:text="Cloudy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gbrCuaca"
+        android:layout_toRightOf="@+id/gbrCuaca"
+        android:layout_toEndOf="@+id/gbrCuaca"
+        android:layout_marginTop="9dp"
+        android:id="@+id/cuaca" />
+
+    <TextView
+        android:text="21˚C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/celsius"
+        android:layout_toEndOf="@+id/gbrCuaca"
+        android:layout_below="@+id/cuaca"
+        android:layout_toRightOf="@+id/gbrCuaca"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:text="69.8˚F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/fahrenheit"
+        android:layout_below="@+id/celsius"
+        android:layout_toRightOf="@+id/gbrCuaca"
+        android:layout_toEndOf="@+id/gbrCuaca" />
+        -->
+
+
+</FrameLayout>
